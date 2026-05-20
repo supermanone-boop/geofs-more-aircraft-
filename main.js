@@ -9,6 +9,16 @@ console.log("MoreCrafts FINAL WORKING");
 // =====================================================
 
 const MORECRAFTS = [
+// MORECRAFTS にこれ追加
+
+{
+    name: "Tupolev Tu-154",
+    base: 2843,
+    glb: "https://raw.githubusercontent.com/supermanone-boop/models/main/tu154.glb",
+    rotation: [0,0,90],
+    position: [0,0,0],
+    scale: [1,1,1]
+},
 
 {
     name: "Boeing 727",
