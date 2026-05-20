@@ -50,8 +50,8 @@ const MORECRAFTS = [
     name: "Airbus ZERO-E",
     base: 10,
     glb: "https://raw.githubusercontent.com/supermanone-boop/models/main/Airbus_ZeroE.glb",
-    rotation: [0,0,90],
-    position: [0,0,100],
+    rotation: [0,0,270],
+    position: [0,0,-100],
     scale: [0.1,0.1,0.1]
 }
 
