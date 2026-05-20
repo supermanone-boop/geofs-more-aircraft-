@@ -15,9 +15,9 @@ const MORECRAFTS = [
     name: "Tupolev Tu-154",
     base: 3011,
     glb: "https://raw.githubusercontent.com/supermanone-boop/models/main/tu154.glb",
-    rotation: [0,0,270],
+    rotation: [0,0,0],
     position: [0,0,-5],
-    scale: [0.7,0.7,0.7]
+    scale: [0.82,0.82,0.82]
 },
 
 {
