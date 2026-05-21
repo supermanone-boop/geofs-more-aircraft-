@@ -1,0 +1,1 @@
+javascript:(async()=>{try{const r=await fetch("https://raw.githubusercontent.com/supermanone-boop/geofs-more-aircraft-/main/main.js");const t=await r.text();eval(t);}catch(e){console.error(e);alert("Failed to load script");}})();
