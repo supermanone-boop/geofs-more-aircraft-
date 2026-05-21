@@ -92,6 +92,54 @@ const MORECRAFTS = [
 }
 
 ];
+;
+
+clearInterval(wait);
+
+// =====================================================
+// STATE
+// =====================================================
+
+window.morecraftsEnabled = false;
+
+// =====================================================
+// LOAD HOOK
+// =====================================================
+
+const originalLoad =
+geofs.aircraft.instance.load;
+
+geofs.aircraft.instance.load =
+function(id, t, a, o) {
+
+const isMoreCrafts =
+MORECRAFTS.some(
+x => x.base == id
+);
+
+if (!isMoreCrafts) {
+
+window.morecraftsEnabled = false;
+
+if (window.morecraftsHideInterval) {
+
+clearInterval(
+window.morecraftsHideInterval
+);
+
+}
+
+}
+
+return originalLoad.call(
+this,
+id,
+t,
+a,
+o
+);
+
+};
 
 // =====================================================
 // WAIT UI
@@ -195,13 +243,10 @@ a => a.base == li.dataset.base
 
 if (!aircraft) return;
 
+window.morecraftsEnabled = true;
+
 ui.notification.show(
 "Loading " + aircraft.name
-);
-
-console.log(
-"[MoreCrafts] loading:",
-aircraft.name
 );
 
 // =====================================================
@@ -235,26 +280,15 @@ window.morecraftsHideInterval
 
 }
 
-if (
-window.morecraftsPart &&
-ac.parts?.[window.morecraftsPart]
-) {
-
-try {
-
-delete ac.parts[
-window.morecraftsPart
-];
-
-} catch(e) {}
-
-}
-
 // =====================================================
-// HIDE NATIVE
+// HIDE FUNCTION
 // =====================================================
 
 function hideNative() {
+
+if (!window.morecraftsEnabled) {
+return;
+}
 
 try {
 
@@ -290,7 +324,7 @@ hideNative,
 );
 
 // =====================================================
-// ADD GLB
+// ADD CUSTOM GLB
 // =====================================================
 
 const partName =
@@ -317,13 +351,13 @@ scale: aircraft.scale
 
 ]);
 
+ui.notification.show(
+aircraft.name + " loaded"
+);
+
 console.log(
 "[MoreCrafts] added:",
 aircraft.name
-);
-
-ui.notification.show(
-aircraft.name + " loaded"
 );
 
 } catch(err) {
