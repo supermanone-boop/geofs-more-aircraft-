@@ -22,7 +22,7 @@ const MORECRAFTS = [
     name: "McDonnell Douglas DC-10",
     base: 3292,
     glb: "https://raw.githubusercontent.com/supermanone-boop/models/main/dc10.glb",
-    rotation: [0,0,200],
+    rotation: [0,0,215],
     position: [0,0,0],
     scale: [0.85,0.85,0.85]
 },
