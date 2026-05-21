@@ -41,7 +41,7 @@ const MORECRAFTS = [
     base: 2843,
     glb: "https://raw.githubusercontent.com/supermanone-boop/models/main/boeing727.glb",
     rotation: [0,0,180],
-    position: [0,0,-3],
+    position: [0,0,-3.5],
     scale: [0.45,0.45,0.45]
 },
 
