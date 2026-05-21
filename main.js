@@ -11,6 +11,14 @@ console.log("MoreCrafts FINAL WORKING");
 const MORECRAFTS = [
 // MORECRAFTS にこれ追加
 {
+    name: "Sukhoi Su-57",
+    base: 18,
+    glb: "https://raw.githubusercontent.com/supermanone-boop/models/main/su57.glb",
+    rotation: [0,0,90],
+    position: [0,0,0],
+    scale: [1,1,1]
+},
+{
     name: "McDonnell Douglas DC-10",
     base: 3292,
     glb: "https://raw.githubusercontent.com/supermanone-boop/models/main/dc10.glb",
