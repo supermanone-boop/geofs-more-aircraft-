@@ -16,7 +16,7 @@ const MORECRAFTS = [
     glb: "https://raw.githubusercontent.com/supermanone-boop/models/main/dc10.glb",
     rotation: [0,0,200],
     position: [0,0,0],
-    scale: [1,1,1]
+    scale: [0.85,0.85,0.85]
 },
 
 {
@@ -25,16 +25,16 @@ const MORECRAFTS = [
     glb: "https://raw.githubusercontent.com/supermanone-boop/models/main/tu154.glb",
     rotation: [0,0,180],
     position: [0,0,-5],
-    scale: [0.82,0.82,0.82]
+    scale: [0.86,0.86,0.86]
 },
 
 {
     name: "Boeing 727",
     base: 2843,
     glb: "https://raw.githubusercontent.com/supermanone-boop/models/main/boeing727.glb",
-    rotation: [0,0,270],
+    rotation: [0,0,180],
     position: [0,0,-1.67],
-    scale: [0.7,0.7,0.7]
+    scale: [0.6,0.6,0.6]
 },
 
 {
