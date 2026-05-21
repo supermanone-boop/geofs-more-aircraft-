@@ -17,8 +17,8 @@ const MORECRAFTS = [
     base: 5409,
     glb: "https://raw.githubusercontent.com/supermanone-boop/models/main/an124.glb",
     rotation: [0,0,270],
-    position: [0,0,0],
-    scale: [1,1,1]
+    position: [0,0,0.8],
+    scale: [0.75,0.75,0.75]
 },
 {
     name: "McDonnell Douglas F-4 Phantom II",
