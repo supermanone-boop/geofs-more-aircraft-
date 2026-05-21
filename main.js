@@ -14,9 +14,9 @@ const MORECRAFTS = [
     name: "Sukhoi Su-57",
     base: 18,
     glb: "https://raw.githubusercontent.com/supermanone-boop/models/main/su57.glb",
-    rotation: [0,0,90],
+    rotation: [0,0,270],
     position: [0,0,0],
-    scale: [1,1,1]
+    scale: [0.35,0.35,0.35]
 },
 {
     name: "McDonnell Douglas DC-10",
