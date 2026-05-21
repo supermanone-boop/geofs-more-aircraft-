@@ -22,7 +22,7 @@ const MORECRAFTS = [
 },
 {
     name: "Antonov an-124",
-    base: 5409,
+    base: 5527,
     glb: "https://raw.githubusercontent.com/supermanone-boop/models/main/an124.glb",
     rotation: [0,0,270],
     position: [0,0,0.8],
