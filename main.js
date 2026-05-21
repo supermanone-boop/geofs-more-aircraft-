@@ -14,7 +14,7 @@ console.log("MoreCrafts FINAL SAFE");
 const MORECRAFTS = [
 {
     name: "Airbus a300-600st Beluga",
-    base: 5516,
+    base: 3180,
     glb: "https://raw.githubusercontent.com/supermanone-boop/models/main/beluga.glb",
     rotation: [0,0,0],
     position: [0,0,0],
@@ -32,8 +32,8 @@ const MORECRAFTS = [
     name: "McDonnell Douglas F-4 Phantom II",
     base: 3617,
     glb: "https://raw.githubusercontent.com/supermanone-boop/models/main/F4.glb",
-    rotation: [0,-15,210],
-    position: [-1,0,-1],
+    rotation: [-15,0,210],
+    position: [-1,0,-151],
     scale: [1,1,1]
 },
 
