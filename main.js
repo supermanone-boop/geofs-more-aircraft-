@@ -2,17 +2,20 @@
 
 'use strict';
 
-console.log("MoreCrafts FINAL WORKING");
+console.log("MoreCrafts FINAL SAFE");
 
 // =====================================================
 // DATA
 // =====================================================
 
+
+// DATA をこれに置き換え
+
 const MORECRAFTS = [
-// MORECRAFTS にこれ追加
+
 {
     name: "McDonnell Douglas F-4 Phantom II",
-    base:3617 ,
+    base: 3617,
     glb: "https://raw.githubusercontent.com/supermanone-boop/models/main/F4.glb",
     rotation: [0,0,200],
     position: [0,0,0],
@@ -92,9 +95,6 @@ const MORECRAFTS = [
 }
 
 ];
-;
-
-clearInterval(wait);
 
 // =====================================================
 // STATE
