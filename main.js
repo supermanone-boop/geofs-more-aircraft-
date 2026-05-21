@@ -12,7 +12,14 @@ console.log("MoreCrafts FINAL SAFE");
 // DATA をこれに置き換え
 
 const MORECRAFTS = [
-
+{
+    name: "Antonov an-124",
+    base: 5409,
+    glb: "https://raw.githubusercontent.com/supermanone-boop/models/main/an124.glb",
+    rotation: [0,0,270],
+    position: [0,0,0],
+    scale: [1,1,1]
+},
 {
     name: "McDonnell Douglas F-4 Phantom II",
     base: 3617,
