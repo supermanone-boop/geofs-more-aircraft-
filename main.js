@@ -13,6 +13,14 @@ console.log("MoreCrafts FINAL SAFE");
 
 const MORECRAFTS = [
 {
+    name: "Airbus a300-600st Beluga",
+    base: 5516,
+    glb: "https://3d-assets.flightradar24.com/fr24/beluga.glb?20230101T000000",
+    rotation: [0,0,0],
+    position: [0,0,0],
+    scale: [1,1,1]
+},
+{
     name: "Antonov an-124",
     base: 5409,
     glb: "https://raw.githubusercontent.com/supermanone-boop/models/main/an124.glb",
