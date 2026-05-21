@@ -12,7 +12,7 @@ const MORECRAFTS = [
 // MORECRAFTS にこれ追加
 {
     name: "McDonnell Douglas DC-10",
-    base: 2843,
+    base: 3292,
     glb: "https://raw.githubusercontent.com/supermanone-boop/models/main/dc10.glb",
     rotation: [0,0,90],
     position: [0,0,0],
@@ -23,7 +23,7 @@ const MORECRAFTS = [
     name: "Tupolev Tu-154",
     base: 3011,
     glb: "https://raw.githubusercontent.com/supermanone-boop/models/main/tu154.glb",
-    rotation: [0,0,0],
+    rotation: [0,0,180],
     position: [0,0,-5],
     scale: [0.82,0.82,0.82]
 },
