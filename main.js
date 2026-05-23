@@ -13,6 +13,14 @@ console.log("MoreCrafts FINAL SAFE");
 
 const MORECRAFTS = [
 {
+    name: "SH60B",
+    base: 3180,
+    glb: "https://raw.githubusercontent.com/supermanone-boop/models/main/sh-60b_seahawk_helicopter.glb",
+    rotation: [0,0,0],
+    position: [0,00],
+    scale: [1,1,1]
+},
+{
     name: "Airbus a300-600st Beluga",
     base: 3180,
     glb: "https://raw.githubusercontent.com/supermanone-boop/models/main/beluga.glb",
