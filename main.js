@@ -17,8 +17,8 @@ const MORECRAFTS = [
     base: 9,
     glb: "https://raw.githubusercontent.com/supermanone-boop/models/main/sh-60b_seahawk_helicopter.glb",
     rotation: [0,0,270],
-    position: [0,0,0],
-    scale: [0.03,0.03,0.03]
+    position: [0,0,-1.5],
+    scale: [0.015,0.015,0.015]
 },
 {
     name: "Airbus a300-600st Beluga",
@@ -40,9 +40,9 @@ const MORECRAFTS = [
     name: "McDonnell Douglas F-4 Phantom II",
     base: 3617,
     glb: "https://raw.githubusercontent.com/supermanone-boop/models/main/F4.glb",
-    rotation: [-15,0,210],
+    rotation: [-25,0,210],
     position: [-1,0,-1.51],
-    scale: [1,1,1]
+    scale: [0.85,0.85,0.85]
 },
 
 {
