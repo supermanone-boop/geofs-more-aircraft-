@@ -18,7 +18,7 @@ const MORECRAFTS = [
     glb: "https://raw.githubusercontent.com/supermanone-boop/models/main/sh-60b_seahawk_helicopter.glb",
     rotation: [0,0,270],
     position: [0,0,-1.5],
-    scale: [0.015,0.015,0.015]
+    scale: [0.01,0.01,0.01]
 },
 {
     name: "Airbus a300-600st Beluga",
