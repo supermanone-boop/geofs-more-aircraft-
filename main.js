@@ -14,10 +14,10 @@ console.log("MoreCrafts FINAL SAFE");
 const MORECRAFTS = [
 
 {
-    name: "SH60B",
+    name: "U2",
     base: 2556,
     glb: "https://raw.githubusercontent.com/supermanone-boop/models/main/u-2_dragonlady_-_free.glb",
-    rotation: [0,0,0],
+    rotation: [0,0,270],
     position: [0,0,0],
     scale: [1,1,1]
 },
