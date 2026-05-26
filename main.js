@@ -12,6 +12,15 @@ console.log("MoreCrafts FINAL SAFE");
 // DATA をこれに置き換え
 
 const MORECRAFTS = [
+
+{
+    name: "SH60B",
+    base: 2556,
+    glb: "https://raw.githubusercontent.com/supermanone-boop/models/main/u-2_dragonlady_-_free.glb",
+    rotation: [0,0,0],
+    position: [0,0,0],
+    scale: [1,1,1]
+},
 {
     name: "SH60B",
     base: 9,
