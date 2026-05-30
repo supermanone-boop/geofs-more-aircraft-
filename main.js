@@ -12,7 +12,14 @@ console.log("MoreCrafts FINAL SAFE");
 // DATA をこれに置き換え
 
 const MORECRAFTS = [
-
+{
+    name: "F104 star fighter",
+    base: 2556,
+    glb: "https://files.catbox.moe/de022r.glb",
+    rotation: [0,0,270],
+    position: [0,0,0],
+    scale: [1,1,1]
+},
 {
     name: "U2",
     base: 2556,
