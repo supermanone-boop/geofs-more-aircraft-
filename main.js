@@ -17,8 +17,8 @@ const MORECRAFTS = [
     base: 5229,
     glb: "https://files.catbox.moe/de022r.glb",
     rotation: [0,0,270],
-    position: [0,0,0],
-    scale: [1,1,1]
+    position: [0,0,-1.2],
+    scale: [1.2,1.2,1.2]
 },
 {
     name: "U2",
@@ -26,7 +26,7 @@ const MORECRAFTS = [
     glb: "https://raw.githubusercontent.com/supermanone-boop/models/main/u-2_dragonlady_-_free.glb",
     rotation: [0,0,270],
     position: [0,0,0],
-    scale: [1,1,1]
+    scale: [1.5,1.5,1.5]
 },
 {
     name: "SH60B",
