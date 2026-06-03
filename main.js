@@ -16,7 +16,7 @@ const MORECRAFTS = [
     name: "C17 globe master",
     base: 3179,
     glb: "https://raw.githubusercontent.com/supermanone-boop/models/main/c17.glb",
-    rotation: [0,0,270],
+    rotation: [0,0,320],
     position: [0,0,0],
     scale: [1,1,1]
 },
