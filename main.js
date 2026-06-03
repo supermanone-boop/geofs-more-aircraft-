@@ -13,6 +13,14 @@ console.log("MoreCrafts FINAL SAFE");
 
 const MORECRAFTS = [
 {
+    name: "C17 globe master",
+    base: 3179,
+    glb: "https://raw.githubusercontent.com/supermanone-boop/models/main/c17.glb,
+    rotation: [0,0,270],
+    position: [0,0,0],
+    scale: [1,1,1]
+},
+{
     name: "F104 star fighter",
     base: 5229,
     glb: "https://files.catbox.moe/de022r.glb",
