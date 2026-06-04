@@ -17,7 +17,7 @@ const MORECRAFTS = [
     base: 3179,
     glb: "https://raw.githubusercontent.com/supermanone-boop/models/main/c17.glb",
     rotation: [0,0,210],
-    position: [5,0,0],
+    position: [5,5,0],
     scale: [1,1,1]
 },
 {
