@@ -25,8 +25,8 @@ const MORECRAFTS = [
     base: 5229,
     glb: "https://raw.githubusercontent.com/supermanone-boop/models/main/f104.glb",
     rotation: [0,0,270],
-    position: [0,0,0],
-    scale: [1,1,1]
+    position: [0.8,0,0],
+    scale: [4.5,4.5,4.5]
 },
 {
     name: "U2",
