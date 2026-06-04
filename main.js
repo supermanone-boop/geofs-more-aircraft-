@@ -23,10 +23,10 @@ const MORECRAFTS = [
 {
     name: "F104 star fighter",
     base: 5229,
-    glb: "https://files.catbox.moe/de022r.glb",
+    glb: "https://raw.githubusercontent.com/supermanone-boop/models/main/f104.glb",
     rotation: [0,0,270],
-    position: [0,0,-1.2],
-    scale: [1.2,1.2,1.2]
+    position: [0,0,0],
+    scale: [1,1,1]
 },
 {
     name: "U2",
